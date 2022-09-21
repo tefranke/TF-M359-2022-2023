@@ -3,6 +3,7 @@ package Unit3_Booleans_If_Statements;
 public class CompoundBooleanEx {
     public static void main(String[] args) {
         // testtest
+        // test2
         String day = "Monday";
         int numHwAssignments = 2;
 
