@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Section_3_7Examples_JUnitTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Shoe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/StudentEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-M359-2022-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TF-M359-2022-2023.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "H:/TF Github/TF-M359-2022-2023"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Section_3_7Examples_JUnitTest">
     <configuration name="CompoundBooleanEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.CompoundBooleanEx" />
