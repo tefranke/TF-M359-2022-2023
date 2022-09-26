@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="" />
+    <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Shoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/StudentEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "H:/TF Github/TF-M359-2022-2023"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.Section_3_7Examples_JUnitTest">
     <configuration name="CompoundBooleanEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.CompoundBooleanEx" />
       <module name="TF-M359-2022-2023" />
@@ -39,8 +51,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Section_3_7Examples_JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ShoeCourseJUnitEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ShoeCourseJUnitEx" />
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ShoeCourseJUnitEx.Section_3_7Examples_JUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Section_3_7Examples_JUnitTest" />
         <item itemvalue="Application.CompoundBooleanEx" />
       </list>
     </recent_temporary>
@@ -55,5 +83,16 @@
       <updated>1663779287133</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
