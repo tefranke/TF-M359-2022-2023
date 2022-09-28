@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Section_3_7Examples_JUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ShoeCourseJUnitEx/Shoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/StudentEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/Chevy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/ChevyJUnitTestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF-M359-2022-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TF-M359-2022-2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +31,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "H:/TF Github/TF-M359-2022-2023"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ChevyJUnitLab" />
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Section_3_7Examples_JUnitTest">
-    <configuration name="CompoundBooleanEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Unit3_Booleans_If_Statements.CompoundBooleanEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.CompoundBooleanEx" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.*" />
+          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Section_3_7Examples_JUnitTest" />
-        <item itemvalue="Application.CompoundBooleanEx" />
+        <item itemvalue="Application.Unit3_Booleans_If_Statements.CompoundBooleanEx" />
       </list>
     </recent_temporary>
   </component>
