@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/Chevy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/ChevyJUnitTestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/Chevy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/Chevy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +46,8 @@
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Section_3_7Examples_JUnitTest">
-    <configuration name="Unit3_Booleans_If_Statements.CompoundBooleanEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.CompoundBooleanEx" />
+  <component name="RunManager" selected="JUnit.ChevyJUnitTestStudent">
+    <configuration name="ChevyJUnitTestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
@@ -59,6 +55,57 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChevyJUnitTestStudent.calcPriceTestEleven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
+      <option name="METHOD_NAME" value="calcPriceTestEleven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChevyJUnitTestStudent.calcPriceTestNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
+      <option name="METHOD_NAME" value="calcPriceTestNine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChevyJUnitTestStudent.calcPriceTestTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
+      <option name="METHOD_NAME" value="calcPriceTestTen" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChevyJUnitTestStudent" />
+        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestTen" />
+        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestEleven" />
+        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestNine" />
         <item itemvalue="JUnit.Section_3_7Examples_JUnitTest" />
-        <item itemvalue="Application.Unit3_Booleans_If_Statements.CompoundBooleanEx" />
       </list>
     </recent_temporary>
   </component>
