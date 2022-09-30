@@ -182,7 +182,7 @@ public class Chevy {
         }
         output += "\n\n\tPRICE WITH UPGRADES:\t$" + (double)priceWithUpgrades + "\n";
         output += "\tFINAL PRICE WITH TAX:\t$" + (double)priceWithUpgrades * TAX_RATE_MULT + "\n";
-        output = "**************************************************";
+        output += "**************************************************";
         return output;
     }
 
