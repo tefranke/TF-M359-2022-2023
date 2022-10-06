@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/ChevyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/GuessNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +23,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-11.0.11/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar!/org/junit/Assert.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2F5Q65XuDE4OnI0MjjRrtGtHxuu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +47,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;
+    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,13 +57,52 @@
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChevyDriver">
+  <component name="RunManager" selected="Application.Notes4_2">
     <configuration name="ChevyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyDriver" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.GuessNum" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notes4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_1" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notes4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_2" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit4_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,61 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChevyJUnitTestStudent.calcPriceTestEleven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
-      <option name="METHOD_NAME" value="calcPriceTestEleven" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChevyJUnitTestStudent.calcPriceTestNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
-      <option name="METHOD_NAME" value="calcPriceTestNine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChevyJUnitTestStudent.calcPriceTestTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
-      <option name="METHOD_NAME" value="calcPriceTestTen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Notes4_2" />
+        <item itemvalue="Application.GuessNum" />
+        <item itemvalue="Application.Notes4_1" />
         <item itemvalue="Application.ChevyDriver" />
         <item itemvalue="JUnit.ChevyJUnitTestStudent" />
-        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestTen" />
-        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestEleven" />
-        <item itemvalue="JUnit.ChevyJUnitTestStudent.calcPriceTestNine" />
       </list>
     </recent_temporary>
   </component>
