@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/GuessNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Ex4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_5_CodeAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/StringAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -57,20 +57,7 @@
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Notes4_2">
-    <configuration name="ChevyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyDriver" />
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Notes4_5_CodeAnalysis">
     <configuration name="GuessNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.GuessNum" />
       <module name="TF-M359-2022-2023" />
@@ -110,28 +97,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChevyJUnitTestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Notes4_5_CodeAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_5_CodeAnalysis" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.*" />
+          <option name="PATTERN" value="Unit4_Iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab" />
-      <option name="MAIN_CLASS_NAME" value="Unit3_Booleans_If_Statements.ChevyJUnitLab.ChevyJUnitTestStudent" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.StringAlgorithms" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Notes4_5_CodeAnalysis" />
+        <item itemvalue="Application.StringAlgorithms" />
         <item itemvalue="Application.Notes4_2" />
         <item itemvalue="Application.GuessNum" />
         <item itemvalue="Application.Notes4_1" />
-        <item itemvalue="Application.ChevyDriver" />
-        <item itemvalue="JUnit.ChevyJUnitTestStudent" />
       </list>
     </recent_temporary>
   </component>
