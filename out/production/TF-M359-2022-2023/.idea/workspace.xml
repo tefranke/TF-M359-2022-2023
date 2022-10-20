@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Ex4_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/Notes4_5_CodeAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/StringAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/DebuggerNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit4_Iteration/PigLatinLab/PigLatinTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit4_Iteration/PigLatinLab/PigLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit4_Iteration/PigLatinLab/PigLatin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit4_Iteration/Notes4_5_CodeAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit4_Iteration/Notes4_5_CodeAnalysis.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +58,9 @@
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Notes4_5_CodeAnalysis">
-    <configuration name="GuessNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.GuessNum" />
+  <component name="RunManager" selected="Application.PigLatinTester">
+    <configuration name="DebuggerNotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.DebuggerNotes" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notes4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_1" />
+    <configuration name="PigLatinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinTester" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,52 +85,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notes4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_2" />
+    <configuration name="PigLatinJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Unit4_Iteration.PigLatinLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinJUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notes4_5_CodeAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.Notes4_5_CodeAnalysis" />
+    <configuration name="PigLatinJUnitTest.translateConsonantWord1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Unit4_Iteration.PigLatinLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinJUnitTest" />
+      <option name="METHOD_NAME" value="translateConsonantWord1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.StringAlgorithms" />
+    <configuration name="PigLatinJUnitTest.translateStartWithYVowel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.*" />
+          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Unit4_Iteration.PigLatinLab" />
+      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinJUnitTest" />
+      <option name="METHOD_NAME" value="translateStartWithYVowel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Notes4_5_CodeAnalysis" />
-        <item itemvalue="Application.StringAlgorithms" />
-        <item itemvalue="Application.Notes4_2" />
-        <item itemvalue="Application.GuessNum" />
-        <item itemvalue="Application.Notes4_1" />
+        <item itemvalue="Application.PigLatinTester" />
+        <item itemvalue="JUnit.PigLatinJUnitTest" />
+        <item itemvalue="JUnit.PigLatinJUnitTest.translateStartWithYVowel" />
+        <item itemvalue="JUnit.PigLatinJUnitTest.translateConsonantWord1" />
+        <item itemvalue="Application.DebuggerNotes" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +163,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit4_Iteration/DebuggerNotes.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
