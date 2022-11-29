@@ -5,8 +5,16 @@ public class Student {
     private Course[] myClasses;
 
     public Student(String name, Course[] myClasses) {
+        // Set the name
         this.name = name;
-        this.myClasses = myClasses;
+
+        // Loop through the classes array, create each object
+        this.myClasses = new Course[8];
+        for (int i = 0; i < 8; i++){
+            this.myClasses[i] = new Course(myClasses[i].getTeacherName(), myClasses[i].getSubject(),
+                    myClasses[i].getCurrentGrade(), myClasses[i].getPeriod());
+        }
+
     }
         // Write a toString method that will return a string with:
         // 1. the student's name

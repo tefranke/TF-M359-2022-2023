@@ -16,5 +16,9 @@ public class StudentTester {
         Student st1 = new Student("Mithun", sched);
         System.out.println(st1);
 
+        per1.setCurrentGrade("F");
+        Student st2 = new Student("Josh", sched);
+        System.out.println(st2);
+        System.out.println(st1);
     }
 }
