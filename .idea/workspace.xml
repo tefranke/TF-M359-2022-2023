@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/StudentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/StudentTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oneCourse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oneSchedule.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +52,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\TF Github\TF-M359-2022-2023" />
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ChevyJUnitLab" />
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTester">
+  <component name="RunManager" selected="Application.FileReadingEx">
+    <configuration name="FileReadingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.CourseEx.FileReadingEx" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit6_Arrays.CourseEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarvelMovieTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit5_WritingClasses.HeroVillainExample.MarvelMovieTester" />
       <module name="TF-M359-2022-2023" />
@@ -109,29 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PigLatinJUnitTest.translateStartWithYVowel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Unit4_Iteration.PigLatinLab" />
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinJUnitTest" />
-      <option name="METHOD_NAME" value="translateStartWithYVowel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileReadingEx" />
         <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.MarvelMovieTester" />
         <item itemvalue="JUnit.PigLatinJUnitTest" />
         <item itemvalue="Application.PigLatinTester" />
-        <item itemvalue="JUnit.PigLatinJUnitTest.translateStartWithYVowel" />
       </list>
     </recent_temporary>
   </component>
