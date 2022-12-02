@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oneCourse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentScheduleData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
