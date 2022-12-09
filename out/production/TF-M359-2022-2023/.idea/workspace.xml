@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/studentScheduleData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/CourseEx/FileReadingEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit3_Booleans_If_Statements\ShoeCourseJUnitEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileReadingEx">
+  <component name="RunManager" selected="Application.TriviaDriver">
     <configuration name="FileReadingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.CourseEx.FileReadingEx" />
       <module name="TF-M359-2022-2023" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PigLatinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4_Iteration.PigLatinLab.PigLatinTester" />
+    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.CourseEx.StudentTester" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4_Iteration.PigLatinLab.*" />
+          <option name="PATTERN" value="Unit6_Arrays.CourseEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.CourseEx.StudentTester" />
+    <configuration name="TriviaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.TriviaGame.TriviaDriver" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit6_Arrays.CourseEx.*" />
+          <option name="PATTERN" value="Unit6_Arrays.TriviaGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TriviaDriver" />
         <item itemvalue="Application.FileReadingEx" />
         <item itemvalue="Application.StudentTester" />
         <item itemvalue="Application.MarvelMovieTester" />
         <item itemvalue="JUnit.PigLatinJUnitTest" />
-        <item itemvalue="Application.PigLatinTester" />
       </list>
     </recent_temporary>
   </component>

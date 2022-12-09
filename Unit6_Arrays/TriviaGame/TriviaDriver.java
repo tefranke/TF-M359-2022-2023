@@ -9,31 +9,18 @@ import java.util.Scanner;
 
 public class TriviaDriver {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(System.in)
-        File myFile = new File("swimming.txt");
-        Scanner fileIn = new Scanner(myFile);
+        Scanner input = new Scanner(System.in);
+        TriviaGame myGame = new TriviaGame();
+        myGame.loadFile("swimming.txt");
+        Question[] qArr = myGame.getQuestionArray();
 
-        // The first line says the theme of the class
-        String theme = fileIn.nextLine();       // swimming
 
-        // The second line says how many questions are in the class
-        int numQuestions = fileIn.nextInt();     // 12
-        fileIn.nextLine();                      // dummy read for newLine
+
 
         System.out.println("State your name: ");
         String userName = input.nextLine();
-        System.out.println("Okay " + userName + ". You will now begin a " + theme + " trivia game");
+        System.out.println("Okay " + userName + ". You will now begin a " + myGame.getTheme() + " trivia game");
 
-        for (int i = 0; i < numQuestions; i++){
-            String question = fileIn.nextLine();
-            int pointVal = fileIn.nextInt();
-            fileIn.nextLine();
-            String optionA = fileIn.nextLine();
-            String optionB = fileIn.nextLine();
-            String optionC = fileIn.nextLine();
-            String optionD = fileIn.nextLine();
-            String correctOption = fileIn.nextLine();
-            
-        }
+        System.out.println(myGame);
     }
 }

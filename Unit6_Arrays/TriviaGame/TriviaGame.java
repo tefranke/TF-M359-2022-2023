@@ -1,11 +1,16 @@
 package Unit6_Arrays.TriviaGame;
 
+import java.io.File;
+import java.util.Scanner;
+
 public class TriviaGame {
     private String theme;
     private int numQuestions;
     private Question[] questionArray;
     private int totalPoints;
     private int numCorrect;
+    private int myFile;
+
 
     // Full Constructor
     public TriviaGame(String theme, int numQuestions, Question[] questionArray,
@@ -15,6 +20,14 @@ public class TriviaGame {
         this.questionArray = questionArray;
         this.totalPoints = totalPoints;
         this.numCorrect = numCorrect;
+    }
+
+    public TriviaGame() {
+        theme = " ";
+        numQuestions = 0;
+        questionArray = new Question[1];
+        totalPoints = 0;
+        numCorrect = 0;
     }
 
     // Getters and Setters
@@ -59,11 +72,30 @@ public class TriviaGame {
         this.numCorrect = numCorrect;
     }
 
-    public void loadFile(String fileName){
-        for(int i = 0; i < numQuestions; i++){
-            questionArray[i] = new Question(questionArray[i].getQuestion(), questionArray[i].getPointVal(),
-                    questionArray[i].getOptionA(), questionArray[i].getOptionB(), questionArray[i].getOptionC(),
-                    questionArray[i].getOptionD(), questionArray[i].getAnswer());
+    public void loadFile(String myFile){
+        Scanner fileIn = new Scanner(myFile);
+        theme = fileIn.nextLine();
+        numQuestions = fileIn.nextInt();
+        questionArray = new Question[numQuestions];
+        fileIn.nextLine();
+        for (int i = 0; i < numQuestions; i++){
+            String question = fileIn.nextLine();
+            int pointVal = fileIn.nextInt();
+            fileIn.nextLine();
+            String optionA = fileIn.nextLine();
+            String optionB = fileIn.nextLine();
+            String optionC = fileIn.nextLine();
+            String optionD = fileIn.nextLine();
+            String correctOption = fileIn.nextLine();
+            questionArray[i] = new Question(question, pointVal, optionA, optionB, optionC, optionD, correctOption);
         }
+    }
+
+    public String toString(){
+        String output = "";
+        for(Question a: questionArray){
+            output += a.toString();
+        }
+        return output;
     }
 }
