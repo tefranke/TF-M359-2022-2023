@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="004811a4-4177-4ed6-a1cf-19340232ace8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF-M359-2022-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TF-M359-2022-2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/ChevyJUnitTestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit3_Booleans_If_Statements/ChevyJUnitLab/ChevyJUnitTestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit6_Arrays/TriviaGame/TriviaDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit6_Arrays/TriviaGame/TriviaDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit6_Arrays/TriviaGame/TriviaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TF-M359-2022-2023/Unit6_Arrays/TriviaGame/TriviaGame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://C:/Program Files/Java/jdk-11.0.11/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar!/org/junit/Assert.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -163,11 +163,6 @@
           <url>file://$PROJECT_DIR$/Unit4_Iteration/DebuggerNotes.java</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit6_Arrays/TriviaGame/TriviaDriver.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
