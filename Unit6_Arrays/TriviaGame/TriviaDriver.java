@@ -36,9 +36,10 @@ public class TriviaDriver {
             userAns = input.nextLine().toLowerCase();
             if(userAns.equals("y"))
                 System.out.println(myGame.getStats(false));
-            else
+            else {
                 System.out.println(myGame.getStats(true));
-            break;
+                break;
+            }
         }
         System.out.println("Great Job!\n" + myGame.getStats(myGame.getNumAnswered() == myGame.getNumQuestions()));
 

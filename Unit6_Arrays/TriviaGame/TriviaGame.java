@@ -123,7 +123,7 @@ public class TriviaGame {
             output = "Congrats! Here Are Your Final Stats:\n";
 
         output += "Answer Streak: " + streak;
-        output += "Points Gained: " + pointVal;
+        output += "\nPoints Gained: " + pointVal;
         output += "\nTotal Points: " + totalPoints;
         output += "\nAnswered Questions: " + numAnswered;
         output += "\nCorrectly Answered Questions: " + numCorrect;

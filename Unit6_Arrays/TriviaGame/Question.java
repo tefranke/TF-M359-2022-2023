@@ -84,10 +84,10 @@ public class Question {
      */
     public String toString(){
         String output = question + " (" + pointVal + " points)\n";
-        output += "\ta) " + optionA + "\n";
-        output += "\tb) " + optionB + "\n";
-        output += "\tc) " + optionC + "\n";
-        output += "\td) " + optionD + "\n";
+        output += optionA + "\n";
+        output += optionB + "\n";
+        output += optionC + "\n";
+        output += optionD + "\n";
         return output;
     }
 }
