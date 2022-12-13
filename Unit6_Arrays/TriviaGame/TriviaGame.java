@@ -128,7 +128,7 @@ public class TriviaGame {
         output += "\nAnswered Questions: " + numAnswered;
         output += "\nCorrectly Answered Questions: " + numCorrect;
         if(isDone)
-            output += "Grade: " + ((double)numCorrect/numAnswered) * 100 + "%";
+            output += "\nGrade: " + ((double)numCorrect/numAnswered) * 100 + "%";
         return output;
     }
 }

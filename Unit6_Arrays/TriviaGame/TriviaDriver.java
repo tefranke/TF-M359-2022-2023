@@ -27,9 +27,11 @@ public class TriviaDriver {
                 myGame.setTotalPoints(myGame.getTotalPoints() + qArr[index].getPointVal());
                 myGame.setNumCorrect(myGame.getNumCorrect() + 1);
                 myGame.setStreak(myGame.getStreak() + 1);
+                myGame.setPointVal(qArr[index].getPointVal());
             } else {
                 System.out.println("Incorrect. The correct option was " + qArr[index].getAnswer());
                 myGame.setStreak(0);
+                myGame.setPointVal(0);
             }
             myGame.setNumAnswered(myGame.getNumAnswered() + 1);
             System.out.println("Do you want to continue? Y or N");
