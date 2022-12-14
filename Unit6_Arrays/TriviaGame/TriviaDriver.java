@@ -9,16 +9,12 @@ public class TriviaDriver {
         TriviaGame myGame = new TriviaGame();
         myGame.loadFile("swimming.txt");
         Question[] qArr = myGame.getQuestionArray();
-        String indexes = "";
-
         System.out.println("State your name: ");
         String userName = input.nextLine();
         System.out.println("Okay " + userName + ". You will now begin a " + myGame.getTheme() + " trivia game");
 
-        for(int i = 0; i < qArr.length; i++) {
+        for(int i = 0; i < 12; i++) {
             int index = (int) (Math.random() * qArr.length);
-            if (!indexes.contains(index + ""))
-                indexes += "" + index;
             System.out.println(qArr[index]);
             System.out.println("Type your answer (a, b, c, or d): ");
             String userAns = input.nextLine();
@@ -42,6 +38,7 @@ public class TriviaDriver {
                 System.out.println(myGame.getStats(true));
                 break;
             }
+            qArr = myGame.newArr(index, qArr);
         }
         System.out.println("Great Job!\n" + myGame.getStats(myGame.getNumAnswered() == myGame.getNumQuestions()));
 

@@ -131,4 +131,16 @@ public class TriviaGame {
             output += "\nGrade: " + ((double)numCorrect/numAnswered) * 100 + "%";
         return output;
     }
+
+    public Question[] newArr(int index, Question[] qArr) {
+        int count = 0;
+        Question[] newArr = new Question[qArr.length - 1];
+        for (int i = 0; i <= newArr.length; i++) {
+            if (i != index) {
+                newArr[count] = qArr[i];
+                count++;
+            }
+        }
+        return newArr;
+    }
 }
