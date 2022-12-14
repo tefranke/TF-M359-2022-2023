@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class TriviaGame {
+    // instance variables
     private String theme;
     private int numQuestions;
     private Question[] questionArray;
@@ -14,6 +15,7 @@ public class TriviaGame {
     private int pointVal;
     private int numAnswered;
 
+    // default constructor
     public TriviaGame() {
         theme = "";
         numQuestions = 0;
@@ -91,6 +93,11 @@ public class TriviaGame {
         this.numAnswered = numAnswered;
     }
 
+    /**
+     * This method loads the file into a new question array to create a new TriviaGame
+     * @param myFile takes in the file to create a TriviaGame with the file
+     * @throws FileNotFoundException
+     */
     public void loadFile(String myFile) throws FileNotFoundException {
         File qFile = new File(myFile);
         Scanner fileIn = new Scanner(qFile);
@@ -111,10 +118,22 @@ public class TriviaGame {
         }
     }
 
+    /**
+     * This method takes in the user answer and the question answered and determines if the given answer is correct
+     * @param answer takes the user's answer to the question
+     * @param curQ takes the question that the user answered
+     * @return a boolean that is true if the question was answered correctly and false if the question wasn't
+     */
     public boolean isCorrect(String answer, Question curQ){
         return answer.equals(curQ.getAnswer());
     }
 
+    /**
+     * This method returns the general statistics after each question(if the user will continue) or the
+     * final statistics (if the user doesn't wish to continue or is done with the quiz)
+     * @param isDone is a boolean that says whether the user is done with the trivia game or not
+     * @return a String that shows the user's statistics for the current game
+     */
     public String getStats(boolean isDone){
         String output;
         if(!isDone)
@@ -132,6 +151,12 @@ public class TriviaGame {
         return output;
     }
 
+    /**
+     * This method creates a new array that excludes the questions that have already been used
+     * @param index is the index of the question that has been used
+     * @param qArr is the array that contains all remaining questions + the question that was just used
+     * @return newArr which is a new Array that excludes the previously used question
+     */
     public Question[] newArr(int index, Question[] qArr) {
         int count = 0;
         Question[] newArr = new Question[qArr.length - 1];

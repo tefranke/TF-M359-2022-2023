@@ -15,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-11.0.11/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.1/junit-4.13.1.jar!/org/junit/Assert.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
