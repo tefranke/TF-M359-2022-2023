@@ -104,6 +104,8 @@ public class TriviaGame {
         theme = fileIn.nextLine();
         numQuestions = fileIn.nextInt();
         fileIn.nextLine();
+
+
         for (int i = 0; i < numQuestions; i++){
             String question = fileIn.nextLine();
             pointVal = fileIn.nextInt();

@@ -11,8 +11,10 @@ public class TriviaDriver {
         myGame.loadFile("swimming.txt");
         Question[] qArr = myGame.getQuestionArray();
         // prompts user for name and introduces the game
+
         System.out.println("State your name: ");
         String userName = input.nextLine();
+
         System.out.println("Okay " + userName + ". You will now begin a " + myGame.getTheme() + " trivia game");
 
         // for loop to run the game
