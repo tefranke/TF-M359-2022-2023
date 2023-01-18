@@ -16,8 +16,6 @@ public class Show {
     }
 
     public String toString(){
-        // String output = "Date\t\tPrice\t\tQuantity\tPerformer\t\t\t\tCity";
-        // output += "\n-------------------------------------------------------------------";
         String output = date + "\t$" + price + "\t" + quantity + "\t\t\t\t" + city + "\n";
         return output;
     }
