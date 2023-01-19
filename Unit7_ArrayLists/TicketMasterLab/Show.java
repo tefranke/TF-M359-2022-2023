@@ -16,7 +16,17 @@ public class Show {
     }
 
     public String toString(){
-        String output = date + "\t$" + price + "\t" + quantity + "\t\t\t\t" + city + "\n";
+        String output = "\n" + date + "\t$" + price + "\t\t" + quantity + "\t\t\t" + performer;
+        if(performer.length() < 7){
+            output += "\t";
+        }
+        if(performer.length() < 12){
+            output += "\t";
+        }
+        if(performer.length() < 16){
+            output += "\t";
+        }
+        output += "\t\t" + city + "\n";
         return output;
     }
 
