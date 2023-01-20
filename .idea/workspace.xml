@@ -45,10 +45,24 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\TF Github\TF-M359-2022-2023\Unit7_ArrayLists\Notes_7_5" />
       <recent name="H:\TF Github\TF-M359-2022-2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
+  <component name="RunManager" selected="Application.BinarySearchExample">
+    <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.Notes_7_5.BinarySearchExample" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit7_ArrayLists.Notes_7_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Notes_7_3_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.Examples.Notes_7_3_Examples" />
       <module name="TF-M359-2022-2023" />
@@ -101,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriviaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit6_Arrays.TriviaGame.TriviaDriver" />
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit6_Arrays.TriviaGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.Notes_7_4_Examples" />
         <item itemvalue="Application.Notes_7_3_TryCatch" />
         <item itemvalue="Application.Notes_7_3_Examples" />
-        <item itemvalue="Application.TriviaDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +147,11 @@
           <url>file://$PROJECT_DIR$/Unit7_ArrayLists/TicketMasterLab/TicketMasterDriver.java</url>
           <line>11</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit7_ArrayLists/Notes_7_5/BinarySearchExample.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
