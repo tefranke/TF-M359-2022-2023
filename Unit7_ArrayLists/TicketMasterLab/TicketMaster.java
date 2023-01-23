@@ -5,9 +5,10 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class TicketMaster {
-    private ArrayList<Show> showList = new ArrayList<Show>();
+    private ArrayList<Show> showList;
 
     public TicketMaster() {
+        showList = new ArrayList<Show>();
     }
 
     public void loadFile(String fileName) throws FileNotFoundException {
@@ -28,6 +29,10 @@ public class TicketMaster {
         }
 
 
+    }
+
+    public ArrayList<Show> getShowList() {
+        return showList;
     }
 
     public String toString(){
