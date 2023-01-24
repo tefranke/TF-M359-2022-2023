@@ -46,7 +46,7 @@
       <recent name="H:\TF Github\TF-M359-2022-2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchExample">
+  <component name="RunManager" selected="Application.TicketMasterDriver">
     <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.Notes_7_5.BinarySearchExample" />
       <module name="TF-M359-2022-2023" />
@@ -114,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.TicketMasterDriver" />
+        <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.Notes_7_4_Examples" />
         <item itemvalue="Application.Notes_7_3_TryCatch" />
         <item itemvalue="Application.Notes_7_3_Examples" />
@@ -147,5 +147,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TF_M359_2022_2023$TicketMasterDriver.ic" NAME="TicketMasterDriver Coverage Results" MODIFIED="1674495589590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Unit7_ArrayLists.TicketMasterLab.*</FILTER>
+    </SUITE>
   </component>
 </project>

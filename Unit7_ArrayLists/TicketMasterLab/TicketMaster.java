@@ -35,12 +35,19 @@ public class TicketMaster {
         return showList;
     }
 
-    public String toString(){
-        String output = "Date\t\tPrice\t\tQty\t\t\t Performer\t\t\t\tCity";
-        output += "\n-------------------------------------------------------------------";
-        for(Show a : showList){
-            output += a.toString();
+
+    public ArrayList<Show> sortByCity(String city){
+        ArrayList<Show> cityList = new ArrayList<>();
+        for (int i = 0; i < showList.size(); i++){
+            if (showList.get(i).getCity().equalsIgnoreCase(city)){
+                cityList.add(showList.get(i));
+            }
         }
+        return cityList;
+    }
+
+    public String toString(){
+        String output = TicketMasterDriver.displayList(showList);
         return output;
     }
 }
