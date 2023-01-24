@@ -26,7 +26,7 @@ public class Show {
         if(performer.length() < 16){
             output += "\t";
         }
-        output += "\t\t" + city + "\n";
+        output += "\t\t" + city;
         return output;
     }
 
