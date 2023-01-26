@@ -15,6 +15,8 @@ public class Show {
         this.city = city;
     }
 
+
+    // returns string of a show on one line
     public String toString(){
         String output = "\n" + date + "\t$" + price + "\t\t" + quantity + "\t\t\t" + performer;
         if(performer.length() < 7){

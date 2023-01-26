@@ -19,8 +19,8 @@ public class TicketMasterDriver {
         int sortBy = 0;
         while(sortBy != 6) {
             System.out.println("Choose how to sort");
-            System.out.println("1. A-Z");
-            System.out.println("2. Z-A");
+            System.out.println("1. Performer A-Z");
+            System.out.println("2. Performer Z-A");
             System.out.println("3. Price low-high");
             System.out.println("4. Price high-low");
             System.out.println("5. City");
@@ -36,7 +36,23 @@ public class TicketMasterDriver {
                 }
             }
 
+
+
             input.nextLine();
+            if (sortBy == 1){
+                System.out.println("Here is a new list sorted A-Z: ");
+                tickets.sortByPerformerAZ();
+                System.out.println(tickets.toString());
+            }
+
+
+            if (sortBy == 2){
+                System.out.println("Here is a new list sorted Z-A: ");
+                tickets.sortByPerformerZA();
+                System.out.println(tickets.toString());
+            }
+
+
             if (sortBy == 5) {
                 System.out.println("Enter city you want to sort by:");
                 String city = "";
@@ -46,7 +62,7 @@ public class TicketMasterDriver {
                     System.out.println("Enter a city name");
                     input.nextLine();   // dummy read
                 }
-                System.out.println("Here are a list of concerts in your city: ");
+                System.out.println("Here is a list of concerts in your city: ");
                 System.out.println(displayList(tickets.sortByCity(city)));
             }
         }
@@ -60,4 +76,6 @@ public class TicketMasterDriver {
         }
         return output;
     }
+
+
 }

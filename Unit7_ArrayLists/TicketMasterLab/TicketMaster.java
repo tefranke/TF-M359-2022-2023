@@ -46,6 +46,40 @@ public class TicketMaster {
         return cityList;
     }
 
+
+    public void sortByPerformerAZ() {
+        for (int i = 0; i <= showList.size() - 1; i++) {
+            // look for the smallest remaining number
+            int minIndex = i;
+            for (int j = i + 1; j < showList.size(); j++) {
+                if (showList.get(minIndex).getPerformer().compareTo(showList.get(j).getPerformer()) > 0) {
+                    minIndex = j;
+                }
+            }
+            // swap the values at index i and minIndex
+            Show temp = showList.get(i);
+            showList.set(i, showList.get(minIndex));
+            showList.set(minIndex, temp);
+        }
+    }
+
+
+    public void sortByPerformerZA() {
+        for (int i = 0; i <= showList.size() - 1; i++) {
+            // look for the smallest remaining number
+            int minIndex = i;
+            for (int j = i + 1; j < showList.size(); j++) {
+                if (showList.get(minIndex).getPerformer().compareTo(showList.get(j).getPerformer()) < 0) {
+                    minIndex = j;
+                }
+            }
+            // swap the values at index i and minIndex
+            Show temp = showList.get(i);
+            showList.set(i, showList.get(minIndex));
+            showList.set(minIndex, temp);
+        }
+    }
+
     public String toString(){
         String output = TicketMasterDriver.displayList(showList);
         return output;

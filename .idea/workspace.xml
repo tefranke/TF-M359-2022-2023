@@ -140,6 +140,10 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="8" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Unit7_ArrayLists/Notes_7_5/BinarySearchExample.java</url>
           <line>6</line>
