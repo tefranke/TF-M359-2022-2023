@@ -80,6 +80,39 @@ public class TicketMaster {
         }
     }
 
+    public void sortByPriceLowHigh(){
+        for (int i = 1; i < showList.size(); i++){
+            double valueToInsert = showList.get(i).getPrice();
+            Show showToInsert = showList.get(i);
+
+            // Determine which position we need to slide over to
+            int pos = i;
+            while (pos > 0 && showList.get(pos-1).getPrice() > valueToInsert){
+                showList.set(pos, showList.get(pos-1));     // shift right
+                pos--;
+            }
+
+            // Now that we've found the correct position insert it
+            showList.set(pos, showToInsert);
+        }
+    }
+
+    public void sortByPriceHighLow(){
+        for (int i = 1; i < showList.size(); i++){
+            double valueToInsert = showList.get(i).getPrice();
+            Show showToInsert = showList.get(i);
+
+            // Determine which position we need to slide over to
+            int pos = i;
+            while (pos > 0 && showList.get(pos-1).getPrice() < valueToInsert){
+                showList.set(pos, showList.get(pos-1));     // shift right
+                pos--;
+            }
+
+            // Now that we've found the correct position insert it
+            showList.set(pos, showToInsert);
+        }
+    }
     public String toString(){
         String output = TicketMasterDriver.displayList(showList);
         return output;

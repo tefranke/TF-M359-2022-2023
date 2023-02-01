@@ -37,7 +37,6 @@ public class TicketMasterDriver {
             }
 
 
-
             input.nextLine();
             if (sortBy == 1){
                 System.out.println("Here is a new list sorted A-Z: ");
@@ -52,6 +51,17 @@ public class TicketMasterDriver {
                 System.out.println(tickets.toString());
             }
 
+            if (sortBy == 3){
+                System.out.println("Here is a new list sorted by price low-high: ");
+                tickets.sortByPriceLowHigh();
+                System.out.println(tickets.toString());
+            }
+
+            if (sortBy == 4){
+                System.out.println("Here is a new list sorted by price high-low: ");
+                tickets.sortByPriceHighLow();
+                System.out.println(tickets.toString());
+            }
 
             if (sortBy == 5) {
                 System.out.println("Enter city you want to sort by:");
