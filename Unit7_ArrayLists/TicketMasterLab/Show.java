@@ -1,12 +1,14 @@
 package Unit7_ArrayLists.TicketMasterLab;
 
 public class Show {
+    // instance variables
     private String date;
     private double price;
     private int quantity;
     private String performer;
     private String city;
 
+    // full constructor
     public Show(String date, double price, int quantity, String performer, String city) {
         this.date = date;
         this.price = price;
@@ -32,6 +34,8 @@ public class Show {
         return output;
     }
 
+
+    // get methods
     public String getDate() {
         return date;
     }
