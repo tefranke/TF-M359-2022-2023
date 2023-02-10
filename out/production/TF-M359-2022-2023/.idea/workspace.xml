@@ -17,6 +17,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/util/Objects.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,26 +51,13 @@
       <recent name="H:\TF Github\TF-M359-2022-2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
+  <component name="RunManager" selected="Application.Notes_8_1">
     <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.Notes_7_5.BinarySearchExample" />
       <module name="TF-M359-2022-2023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Unit7_ArrayLists.Notes_7_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Notes_7_3_TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.Examples.Notes_7_3_TryCatch" />
-      <module name="TF-M359-2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit7_ArrayLists.Examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Notes_8_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8_2dArrays.Examples.Notes_8_1" />
+      <module name="TF-M359-2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit8_2dArrays.Examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketMasterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit7_ArrayLists.TicketMasterLab.TicketMasterDriver" />
       <module name="TF-M359-2022-2023" />
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Notes_8_1" />
         <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.Notes_7_6_InsertionSort" />
         <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.Notes_7_4_Examples" />
-        <item itemvalue="Application.Notes_7_3_TryCatch" />
       </list>
     </recent_temporary>
   </component>
