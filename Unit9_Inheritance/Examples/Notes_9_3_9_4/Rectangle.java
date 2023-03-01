@@ -5,7 +5,7 @@ public class Rectangle extends Shape{
     private int length;
 
     public Rectangle (){
-        super("No color", 4);
+        super();
         width = 0;
         length = 0;
     }
@@ -16,9 +16,36 @@ public class Rectangle extends Shape{
         this.length = length;
     }
 
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+
+    public void scaleSize(double scale){
+        width *= scale;
+        length *= scale;
+    }
+
+
+    public double findArea(){
+        return (double)length*width;
+    }
+
     public String toString(){
-        String output = "This rectangle is " + super.getColor() +
-                ", with a width of " + width + " and a length of " + length;
+        String output = super.toString() + ", length: " + length + ", width: " + width;
         return output;
     }
 }

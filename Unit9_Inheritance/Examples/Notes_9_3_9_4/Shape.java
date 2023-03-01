@@ -30,8 +30,9 @@ public class Shape {
         this.numSides = numSides;
     }
 
+
     public String toString(){
-        String output = "This shape is " + color + " and has " + numSides + " sides";
+        String output = "Color: " + color + ", # of sides: " + numSides;
         return output;
     }
 }
