@@ -1,5 +1,7 @@
 package Unit9_Inheritance.Examples.BuildingLab;
 
+import java.util.ArrayList;
+
 public class BuildingDriver {
     public static void main(String[] args) {
         Building pigSty = new Building("pig sty", "Bob the Builder", 1999,
@@ -19,6 +21,13 @@ public class BuildingDriver {
                 2397, "Schaumburg", 1400, 8, 8,
                 2, 3, true);
 
+
+        ArrayList<Building> buildList = new ArrayList<>();
+        buildList.add(pigSty);
+        buildList.add(factory);
+        buildList.add(house);
+        buildList.add(mansion);
+        buildList.add(elPiso);
 
         System.out.println(pigSty.toString() + "\n");
 
