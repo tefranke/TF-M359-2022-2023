@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77a793d2-10a7-43e4-8cee-d488b80927d4" name="Changes" comment="" />
+    <list default="true" id="77a793d2-10a7-43e4-8cee-d488b80927d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Apartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/BuildingDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/BuildingDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Commercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Commercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Residential.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/Residential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/SingleFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab/SingleFamily.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-11.0.17.8-hotspot/lib/src.zip!/java.base/java/util/Objects.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,19 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/TF Github/TF-M359-2022-2023&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/tylerfranke/Documents/GitHub/TF-M359-2022-2023/Unit9_Inheritance/Examples/BuildingLab",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Unit9_Inheritance/Examples/BuildingLab" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit9_Inheritance\Examples\BuildingLab" />
       <recent name="H:\TF Github\TF-M359-2022-2023\Unit9_Inheritance\Examples\Notes_9_5" />
@@ -140,6 +146,17 @@
       <updated>1670953405750</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

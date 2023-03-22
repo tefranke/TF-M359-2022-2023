@@ -17,6 +17,7 @@ public class Building {
         this.sqFt = sqFt;
     }
 
+    //getters and setters
     public String getName() {
         return name;
     }
@@ -65,6 +66,7 @@ public class Building {
         this.sqFt = sqFt;
     }
 
+    @Override
     public String toString(){
         String str = "This " + name + " was built by " + builder + " in " + yearBuilt;
         str += "\nIt is located in " + location + " and has " + sqFt + " square feet";
@@ -72,13 +74,23 @@ public class Building {
         return str;
     }
 
+    /**
+     * The renovate function randomly creates upgrades for the different features
+     * of the building,and increases its property value accordingly
+     */
     public void renovate(){
         price += Math.random() * price;
         sqFt += (int)(Math.random() * sqFt/10);
 
     }
 
+
+    /**
+     *It returns a utility bill that is proportionate to your square footage
+     * @return it returns a int that is proportionate to the square footage
+     */
     public int getUtilityBill(){
         return sqFt/6;
     }
+
 }

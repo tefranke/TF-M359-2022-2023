@@ -16,6 +16,8 @@ public class Residential extends Building{
         this.numBeds = numBeds;
     }
 
+    //getters and setters
+
     public int getSchoolRating() {
         return schoolRating;
     }
@@ -48,6 +50,7 @@ public class Residential extends Building{
         this.numBeds = numBeds;
     }
 
+    @Override
     public String toString(){
         String output = super.toString();
         output += "School Rating: " + schoolRating + "\nSafety Rating: " + safetyRating;
@@ -55,10 +58,16 @@ public class Residential extends Building{
         return output;
     }
 
+    /**
+     *The renovate function randomly creates upgrades for the different features
+     *the building,and increases its property value accordingly
+     */
     @Override
     public void renovate() {
         super.renovate();
         numBaths += (int)(Math.random() * 2) + 1;
         numBeds += (int)(Math.random() * 2) + 1;
+        numBaths += (int)(Math.random() * 3) + 1;
+        numBeds += (int)(Math.random() * 3) + 1;
     }
 }

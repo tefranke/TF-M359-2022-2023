@@ -5,6 +5,15 @@ public class Commercial extends Building{
     private int maximumOccupancy;
     private int parkingSpaces;
 
+    public Commercial(String name, String builder, int yearBuilt, int price,
+                      String location, int sqFt, String purpose, int maximumOccupancy, int parkingSpaces) {
+        super(name, builder, yearBuilt, price, location, sqFt);
+        this.purpose = purpose;
+        this.maximumOccupancy = maximumOccupancy;
+        this.parkingSpaces = parkingSpaces;
+    }
+
+    //getters and setters
     public String getPurpose() {
         return purpose;
     }
@@ -29,14 +38,8 @@ public class Commercial extends Building{
         this.parkingSpaces = parkingSpaces;
     }
 
-    public Commercial(String name, String builder, int yearBuilt, int price,
-                      String location, int sqFt, String purpose, int maximumOccupancy, int parkingSpaces) {
-        super(name, builder, yearBuilt, price, location, sqFt);
-        this.purpose = purpose;
-        this.maximumOccupancy = maximumOccupancy;
-        this.parkingSpaces = parkingSpaces;
-    }
 
+    @Override
     public String toString(){
         String output = super.toString();
         output += "The purpose of this building is for " + purpose + "\nMaximum Occupancy: " + maximumOccupancy;
@@ -44,6 +47,10 @@ public class Commercial extends Building{
         return output;
     }
 
+    /**
+     * The renovate function randomly creates upgrades for the different features
+     * of the building,and increases its property value accordingly
+     */
     @Override
     public void renovate() {
         super.renovate();
@@ -51,7 +58,13 @@ public class Commercial extends Building{
         parkingSpaces += (int)(Math.random() * parkingSpaces/10);
     }
 
+    /**
+     * This returns the revenue this commercial building makes in a month
+     * @return it returns an int prportional to the square footage of the building
+     */
     public int monthlyRevenue(){
         return getSqFt()*1000;
     }
+
+
 }

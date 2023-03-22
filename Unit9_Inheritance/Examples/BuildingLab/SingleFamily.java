@@ -12,6 +12,7 @@ public class SingleFamily extends Residential{
         this.numAcres = numAcres;
     }
 
+    //getters and setters
     public int getNumGarageSpaces() {
         return numGarageSpaces;
     }
@@ -28,12 +29,18 @@ public class SingleFamily extends Residential{
         this.numAcres = numAcres;
     }
 
+    @Override
     public String toString(){
         String output = super.toString();
         output += "Number of Garage Spaces: " + numGarageSpaces + "\nNumber of Acres at the property is " + numAcres;
         return output;
     }
 
+    /**
+     * The renovate function randomly creates upgrades for the different features
+     * of the building,and increases its property value accordingly
+     * It also adds a random number of garage spaces to the building
+     */
     @Override
     public void renovate() {
         super.renovate();
@@ -43,6 +50,9 @@ public class SingleFamily extends Residential{
 
     }
 
+    /**
+     * This adds a random number (int) to the acreage count of a building
+     */
     public void luckyLandPurchase(){
         numAcres += (int)(Math.random() * 5) + 1;
     }

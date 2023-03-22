@@ -9,6 +9,7 @@ public class Apartment extends Residential{
         this.hasGarage = hasGarage;
     }
 
+    //getters and setters
     public boolean isHasGarage() {
         return hasGarage;
     }
@@ -17,12 +18,18 @@ public class Apartment extends Residential{
         this.hasGarage = hasGarage;
     }
 
+    @Override
     public String toString(){
         String output = super.toString();
         output += "Does this property have a garage: " + hasGarage;
         return output;
     }
 
+    /**
+     * The renovate function randomly creates upgrades for the different features
+     * of the building,and increases its property value accordingly
+     * It also has an additional functionality to determine whether a garage is added on
+     */
     @Override
     public void renovate() {
         super.renovate();
